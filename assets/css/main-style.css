@@ -1,0 +1,114 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*BEGIN HEADER*/
+
+
+
+
+
+/*BEGIN MAIN*/
+main{
+	min-height: 250px;
+
+}
+
+
+/***********BEGIN Video hover***********/
+
+
+
+#videosList:hover.video { visibility:visible; }
+
+/***********END Video hover***********/
+
+
+/***********BEGIN User startup form***********/
+
+
+.welcome-msg h4{
+	font-weight: 600;
+	color: rgb(94, 48, 190);
+}
+
+
+.top-wallet-info{
+	padding: 15px 50px;
+	text-align: right;
+}
+
+
+.create-proj{
+	width: 70%;
+	margin: 0 auto;
+	color: #fff;
+		h4{
+		margin: 0
+	}
+}
+
+
+.create-new-proj .modal-content{
+	border-radius: 0;
+	border: none;
+	padding: 3rem 1rem;
+	background: var(--prim-color);
+	color: var(--white-color);
+}
+
+body.showcase{
+	background:#f1f1f1;
+}
+.showcase .bdr{
+	border-right: 2px rgba(220, 216, 216, 0.4) solid;
+	min-height: 100% !important;
+}
+
+
+
+
+.buyer-title{
+	color:#fff;
+}
+
+/***********BEGIN User startup form***********/
+
+
+
+
+
+
+/*END MAIN*/
+
+
+
+
+/*END HEADER*/
+
+
+
+
+/*BEGIN HEADER*/
+
+
+
+
+
+/*END HEADER*/
+
+
+
+/*MEDIA QUERY */
+
+

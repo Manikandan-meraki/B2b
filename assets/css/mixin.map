@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/mixin.css",
+	"sources": [
+		"../sass/mixin.scss"
+	],
+	"sourcesContent": [
+		"\r\n\r\n@mixin border-radius($radius) {\r\n  -webkit-border-radius: $radius;\r\n     -moz-border-radius: $radius;\r\n      -ms-border-radius: $radius;\r\n          border-radius: $radius;\r\n}\r\n\r\n@mixin placeholder {\r\n  &::-webkit-input-placeholder {@content};\r\n  &:-moz-placeholder           {@content};\r\n  &::-moz-placeholder          {@content};\r\n  &:-ms-input-placeholder      {@content};\r\n}"
+	],
+	"mappings": "",
+	"names": []
+}

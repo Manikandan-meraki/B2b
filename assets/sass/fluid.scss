@@ -1,0 +1,134 @@
+/*MEDIA QUERY */
+
+@media only screen and (max-width: 500px) {
+	.tab-menu ul.menu-ul .notification-info{
+		right: -90px !important	;
+	}
+	main {
+		.create-proj{
+			width:100%;
+		}
+		.proj-accept-sec{
+			padding: 0px !important;
+			.btn-b2b{
+				    padding: 8px 30px !important;
+			}
+
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.main{
+		height: calc(100vh - 150px);
+	}
+	.main-h{
+		height: calc(100vh - 202px);
+	}
+	.mob-vw-tab{
+		display:none;
+	}
+}
+@media only screen and (max-width: 767px) {
+	body{
+		header{
+			position: fixed;
+			width: 100%;
+			top: 0;
+			background: rgba(237, 237, 237, 0.25);
+			z-index: 1;
+			.desk-vw{
+				display:none;
+			}
+			.mob-vw-tab{
+				display:block;
+			}
+		}
+		main{
+			margin-top: 100px;	.video{
+				height: 180px;
+			}
+			#videosList {
+				margin: 20px 0px;
+			}
+
+			.user-enter-form{
+				padding-top: 10vh;
+				input{
+					font-size: 1.5rem;
+				}
+				.user-form-info{
+					padding: 10px;
+					font-size:13px;
+				}
+			}
+			.buyer-list-title{
+				text-align: center;
+			}
+			.Wallet-value-cnt{
+				text-align: center !important;
+			}
+			.single-vw {
+
+				.fund-contract-form {
+					width: 60%;
+					input{
+						font-size: 1.5rem;
+						margin-top: 20px;
+					}
+				}
+			}
+
+			.welcome-msg{
+				margin: 100px 0;
+			}
+			.sgl-left-vw{
+				padding-top: 20px;
+				padding-bottom: 20px;
+			}
+			.buyer-title{
+				text-align:center !important;
+			} 
+			.buyer-wallet-value{
+				text-align:center !important;
+			}
+			.proof-cnt{
+				text-align:center !important;
+			}
+
+		}
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px)   {
+	#videosList {
+		/*margin-top: 10vh ;*/
+	}
+	main{
+		.single-vw {
+			.fund-contract-form 
+			{
+				width: 60%;
+				input{
+					font-size: 1.5rem;
+					margin-top: 20px;
+				}
+			}
+		}
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1399px)   {
+	#videosList {
+		/*margin-top: 15vh ;*/
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+	#videosList {
+		/*margin-top: 20vh;*/
+	}
+	.fund-contract-form{
+		width: 80%;
+	}
+}
+
+/*MEDIA QUERY */

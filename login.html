@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>B2B</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="assets/css/fontawesome/css/fontawesome-all.min.css"> -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<div class="main-wrapper home">
+		<div class="b2b-borders">
+			<div class="bdr b1"></div>
+			<div class="bdr b2"></div>
+			<div class="bdr b3"></div>
+			<div class="bdr b4"></div>
+		</div>
+		<header>
+			<div class="logo">
+				<img src="assets/img/logo.png" alt="">
+			</div>
+			<div class="menu">
+
+				<a id="menu-toggle" href="#" class="btn btn-link btn-lg toggle">
+					<img src="assets/img/icon/menu.svg" alt="menu-bar" style="width: 35px;">
+
+				</a>
+				<div id="sidebar-wrapper">
+					<ul class="sidebar-nav">
+						<div style="text-align: right; margin-right: 20px;"><a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><img src="assets/img/icon/cancel.svg" alt="menu-bar" style="width: 35px;"></a></div>
+						
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#about">About</a>
+						</li>
+						<li>
+							<a href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="main row align-items-center m-0">
+
+
+				<div class="col-sm-12 col-md-10 col-lg-7  mx-auto">
+
+					<section class="user-enter-form"><form>
+						<div class="form-group">
+							<label for="mobilenumber"  class="sr-only">Enter your Mobile number</label>
+							<input type="tel" class="form-control" placeholder="Enter your Mobile number">
+						</div>
+						<div class="user-form-info">
+							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+							</p><p>
+								<a href="#">Create Account</a></p>
+							</div>
+						</form>
+
+					</section>
+				</div>
+			</div>
+
+
+
+
+		</main>
+		<footer>
+			<p class="text-center">Powered by B2B Trade </p>
+		</footer>
+
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			$('video').get(0).play();
+			$('video').get(1).play();
+
+			$('video').get(0).pause();
+			$('video').get(1).pause();
+
+		});
+
+		var figure = $(".video").hover( hoverVideo, hideVideo );
+
+
+
+		function hoverVideo(e) {  
+			$('video', this).get(0).play(); 
+		}
+
+		function hideVideo(e) {
+			$('video', this).get(0).pause(); 
+		}
+
+
+		$("#menu-close").click(function(e) {
+			e.preventDefault();
+			$("#sidebar-wrapper").toggleClass("active");
+		});
+		$("#menu-toggle").click(function(e) {
+			e.preventDefault();
+			$("#sidebar-wrapper").toggleClass("active");
+		});
+	</script>
+</body>
+</html>

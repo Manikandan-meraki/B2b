@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>B2B</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <style type="text/css">
+  /* Sticky footer styles
+  -------------------------------------------------- */
+
+
+  .preload{
+    /*background: #f1f1f1;*/
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    position: absolute;
+    top: 0;
+  }
+  .preload div {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: #ccc;
+    top: 45%;
+    border-radius: 50%;
+  }
+
+  .preload div:nth-child(1) {
+    background-color: #5e1ae9;
+    animation: move 2s infinite cubic-bezier(.2,.64,.81,.23);
+  }
+  .preload div:nth-child(2) {
+    background-color: #6329db;
+    animation: move 2s 150ms infinite cubic-bezier(.2,.64,.81,.23);
+  }
+  .preload div:nth-child(3) {
+    background-color: #7c48e7;
+    animation: move 2s 300ms infinite cubic-bezier(.2,.64,.81,.23);
+  }
+  .preload div:nth-child(4) {
+    background-color: #9d78ea;
+    animation: move 2s 450ms infinite cubic-bezier(.2,.64,.81,.23);
+  }
+  .preload div:nth-child(5) {
+    background-color: #c6b0f6;
+    animation: move 2s 600ms infinite cubic-bezier(.2,.64,.81,.23);
+  }
+
+  .loading{
+    width: 100px;
+    height: 10px;
+    z-index: 9;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .loading div{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #ccc;
+    border-radius: 50%;
+  }
+
+  .loading div:nth-child(1) {
+    background-color: #7c48e7;
+    animation: move 1s infinite cubic-bezier(.2,.50,.75,.5);
+  }
+  .loading div:nth-child(2) { background-color: #9d78ea;;
+    animation: move 1s 150ms infinite cubic-bezier(.2,.50,.75,.5);
+  }
+  .loading div:nth-child(3) { background-color: #c6b0f6;
+    animation: move 1s 300ms infinite cubic-bezier(.2,.50,.75,.5);
+  }
+
+  @keyframes move {
+    0% {left: 0%;}
+    100% {left:100%;}
+  }
+
+</style>
+</head>
+<body>
+  <div class="preload">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+  </div>  
+
+   <div class="loading">
+    <div></div>
+    <div></div>
+    <div></div>
+
+
+  </div>
+
+
+
+</body>
+</html>

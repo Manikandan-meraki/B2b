@@ -1,0 +1,154 @@
+/*MEDIA QUERY */
+@media only screen and (max-width: 500px) {
+  /* line 4, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  .tab-menu ul.menu-ul .notification-info {
+    right: -90px !important;
+  }
+  /* line 8, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  main .create-proj {
+    width: 100%;
+  }
+  /* line 11, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  main .proj-accept-sec {
+    padding: 0px !important;
+  }
+  /* line 13, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  main .proj-accept-sec .btn-b2b {
+    padding: 8px 30px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 22, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  .main {
+    height: calc(100vh - 150px);
+  }
+  /* line 25, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  .main-h {
+    height: calc(100vh - 202px);
+  }
+  /* line 28, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  .mob-vw-tab {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 34, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  body header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgba(237, 237, 237, 0.25);
+    z-index: 1;
+  }
+  /* line 40, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  body header .desk-vw {
+    display: none;
+  }
+  /* line 43, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  body header .mob-vw-tab {
+    display: block;
+  }
+  /* line 47, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  body main {
+    margin-top: 100px;
+  }
+  /* line 48, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  body main .video {
+    height: 180px;
+  }
+  /* line 51, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  body main #videosList {
+    margin: 20px 0px;
+  }
+  /* line 55, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  body main .user-enter-form {
+    padding-top: 10vh;
+  }
+  /* line 57, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  body main .user-enter-form input {
+    font-size: 1.5rem;
+  }
+  /* line 60, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  body main .user-enter-form .user-form-info {
+    padding: 10px;
+    font-size: 13px;
+  }
+  /* line 65, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  body main .buyer-list-title {
+    text-align: center;
+  }
+  /* line 68, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  body main .Wallet-value-cnt {
+    text-align: center !important;
+  }
+  /* line 73, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  body main .single-vw .fund-contract-form {
+    width: 60%;
+  }
+  /* line 75, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  body main .single-vw .fund-contract-form input {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  /* line 82, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  body main .welcome-msg {
+    margin: 100px 0;
+  }
+  /* line 85, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  body main .sgl-left-vw {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  /* line 89, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  body main .buyer-title {
+    text-align: center !important;
+  }
+  /* line 92, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  body main .buyer-wallet-value {
+    text-align: center !important;
+  }
+  /* line 95, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  body main .proof-cnt {
+    text-align: center !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 103, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  #videosList {
+    /*margin-top: 10vh ;*/
+  }
+  /* line 108, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  main .single-vw .fund-contract-form {
+    width: 60%;
+  }
+  /* line 111, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  main .single-vw .fund-contract-form input {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1399px) {
+  /* line 120, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  #videosList {
+    /*margin-top: 15vh ;*/
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  /* line 126, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  #videosList {
+    /*margin-top: 20vh;*/
+  }
+  /* line 129, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/fluid.scss */
+  .fund-contract-form {
+    width: 80%;
+  }
+}
+
+/*MEDIA QUERY */
+
+/*# sourceMappingURL=../css/fluid.map */

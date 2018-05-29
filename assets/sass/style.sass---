@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i')
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700')
+
+:root 
+	--font-gara: 'EB Garamond', serif
+	--font-mont: 'Montserrat', sans-serif
+	--main-color: #5b5b5b
+	--prim-color: rgb(121, 72, 224)
+	--scnd-color: rgb(255, 168, 0)
+	--placehold-color: rgb(199, 199, 199)
+
+	--white-clr: rgb(255, 255, 255)
+
+	--padding: 10px
+
+
+
+*
+	margin: 0px;
+	padding: 0px;
+
+body
+	font-family: var(--font-mont)
+	color: var(--main-color)
+	font-size: 15px
+	font-weight: 600
+
+
+a 
+	text-decoration: none
+
+	&:hover
+		text-decoration: underline
+
+.clr-ylw
+		color: var(--scnd-color)
+		a{
+			
+		}
+
+
+
+
+.modal-backdrop
+	background-color: var(--white-clr)
+
+	&.show 
+   		opacity: .8
