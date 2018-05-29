@@ -568,29 +568,29 @@ main .create-proj {
   background: var(--blue-clr);
 }
 
-/* line 488, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 489, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .create-proj:hover {
   background: var(--d-blue-clr);
   cursor: pointer;
 }
 
-/* line 492, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 493, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .create-proj h4 {
   margin: 0;
 }
 
-/* line 495, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 496, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .create-proj .plus {
   fill: var(--w-clr);
   margin-bottom: 25px;
 }
 
-/* line 501, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 502, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .Wallet-value-cnt {
   font-weight: 600;
 }
 
-/* line 507, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 508, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .proj-thumb-lists .proj-thumb-vw {
   background: var(--w-clr);
   padding: 20px;
@@ -598,13 +598,27 @@ main .proj-thumb-lists .proj-thumb-vw {
 }
 
 /* line 513, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+main .proj-thumb-lists .proj-thumb-vw.create-proj {
+  width: 100%;
+  text-align: center;
+  background: var(--blue-clr);
+  padding: 0px;
+}
+
+/* line 519, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+main .proj-thumb-lists .proj-thumb-vw.create-proj:hover {
+  background: var(--d-blue-clr);
+  cursor: pointer;
+}
+
+/* line 525, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .proj-thumb-lists .proj-thumb-vw:hover {
   -webkit-box-shadow: 0px 3px 5px 0px #e6e6e6;
   -moz-box-shadow: 0px 3px 5px 0px #e6e6e6;
   box-shadow: 0px 3px 5px 0px #e6e6e6;
 }
 
-/* line 518, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 530, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .proj-thumb-lists .proj-thumb-vw .proj-thumb-title {
   text-transform: uppercase;
   font-weight: 600;
@@ -613,19 +627,19 @@ main .proj-thumb-lists .proj-thumb-vw .proj-thumb-title {
   margin-bottom: 20px;
 }
 
-/* line 525, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 537, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .proj-thumb-lists .proj-thumb-vw .proj-thumb-cnt {
   font-size: 13px;
   color: var(--gray-clr);
   margin-bottom: 15px;
 }
 
-/* line 531, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 543, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .proj-thumb-lists .proj-thumb-vw .proj-redir, main .proj-thumb-lists .proj-thumb-vw .proj-relink {
   color: var(--black-clr);
 }
 
-/* line 536, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 548, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .proj-thumb-lists .proj-thumb-vw .notify {
   width: 30px;
   height: 30px;
@@ -634,7 +648,7 @@ main .proj-thumb-lists .proj-thumb-vw .notify {
   top: -10px;
 }
 
-/* line 542, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 554, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .proj-thumb-lists .proj-thumb-vw .notify span {
   position: relative;
   top: 8px;
@@ -644,49 +658,49 @@ main .proj-thumb-lists .proj-thumb-vw .notify span {
   margin: 0 auto;
 }
 
-/* line 556, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 568, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .sgl-left-vw {
   background: var(--w-clr);
 }
 
-/* line 559, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 571, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .sgl-left-vw .back-btn {
   padding: 20px 10px;
 }
 
-/* line 563, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 575, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .sgl-left-vw .media .user-img {
   border-radius: 50%;
   width: 40px;
 }
 
-/* line 568, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 580, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .sgl-left-vw .media .media-body h2 {
   color: var(--blue-clr);
 }
 
-/* line 573, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 585, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .sgl-left-vw .card {
   border: none;
 }
 
-/* line 575, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 587, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .sgl-left-vw .card .card-header {
   background: transparent;
   border: none;
 }
 
-/* line 581, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 593, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .buyer-title {
   color: var(--w-clr);
 }
 
-/* line 584, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 596, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .buyer-list-search {
   width: 100%;
 }
 
-/* line 586, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 598, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .buyer-list-search input {
   visibility: hidden;
   color: var(--w-clr);
@@ -712,41 +726,41 @@ main .single-vw .buyer-list-search input:-ms-input-placeholder {
   color: var(--w-clr);
 }
 
-/* line 593, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 605, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .buyer-list-search .input-group-text {
   background: transparent;
   border: none;
   border-bottom: 1px;
 }
 
-/* line 597, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 609, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .buyer-list-search .input-group-text:hover {
   cursor: pointer;
 }
 
-/* line 604, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 616, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .add-buyer-number {
   cursor: pointer;
 }
 
-/* line 607, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 619, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .proof-cnt {
   color: var(--w-clr);
 }
 
-/* line 610, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 622, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .proof-cnt .verified-amount .check-icon {
   display: inline-block;
   float: left;
   margin-right: 15px;
 }
 
-/* line 614, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 626, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .proof-cnt .verified-amount h4 {
   padding-top: 7px;
 }
 
-/* line 620, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 632, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .proof-cnt-form textarea {
   color: var(--w-clr);
 }
@@ -771,25 +785,25 @@ main .single-vw .proof-cnt-form textarea:-ms-input-placeholder {
   color: var(--w-clr);
 }
 
-/* line 629, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 641, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .buyer-wallet-value {
   color: #f3f3f3;
   text-align: right;
 }
 
-/* line 632, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 644, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .buyer-wallet-value span {
   display: inline-block;
 }
 
-/* line 638, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 650, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .fund-contract-form {
   margin: 0 auto;
   padding: 70px 0px;
   text-align: center;
 }
 
-/* line 643, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 655, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .fund-contract-form input {
   font-size: 3rem;
   color: #fff;
@@ -816,19 +830,19 @@ main .single-vw .fund-contract-form input:-ms-input-placeholder {
   color: var(--w-clr);
 }
 
-/* line 652, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 664, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .fund-contract-form h4 {
   font-size: 3rem;
   margin-top: 25px;
   color: #391b77;
 }
 
-/* line 657, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 669, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .fund-contract-form .btn {
   margin-top: 30px;
 }
 
-/* line 666, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 678, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .file-upload {
   background-color: #ffffff;
   /*margin: 0 auto;*/
@@ -836,18 +850,18 @@ main .single-vw .file-upload {
   margin-bottom: 25px;
 }
 
-/* line 672, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 684, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .file-upload .image-upload-wrap {
   position: relative;
   background: rgba(51, 34, 17, 0.14902);
 }
 
-/* line 675, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 687, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .file-upload .image-upload-wrap:hover {
   background-color: #dcdcdc;
 }
 
-/* line 678, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 690, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .file-upload .image-upload-wrap .file-upload-input {
   position: absolute;
   margin: 0;
@@ -859,25 +873,25 @@ main .single-vw .file-upload .image-upload-wrap .file-upload-input {
   cursor: pointer;
 }
 
-/* line 688, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 700, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .file-upload .image-upload-wrap .drag-text {
   text-align: center;
   padding: 30px 0;
 }
 
-/* line 690, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 702, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .file-upload .image-upload-wrap .drag-text h6 {
   color: var(--gray-clr);
   font-size: 13px;
   margin-top: 11px;
 }
 
-/* line 708, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 720, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .img-upload {
   fill: var(--gray-clr);
 }
 
-/* line 711, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 723, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .docs {
   display: inline-block;
   float: left;
@@ -887,57 +901,57 @@ main .single-vw .docs {
   cursor: pointer;
 }
 
-/* line 718, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 730, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .docs .pdf-close {
   position: absolute;
   right: 0;
   top: 0;
 }
 
-/* line 723, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 735, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .docs:hover {
   opacity: 0.8;
 }
 
-/* line 728, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 740, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .active-div h1 {
   font-family: var(--f-m);
   margin-bottom: 25px;
 }
 
-/* line 732, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 744, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .active-div p {
   color: var(--w-clr);
 }
 
-/* line 736, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 748, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .buyer-grid {
   margin-bottom: 20px;
 }
 
-/* line 739, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 751, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .buyer-grid.decline .media {
   background: #3f1b8a;
 }
 
-/* line 741, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 753, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .buyer-grid.decline .media .media-body {
   color: #fbc100;
 }
 
-/* line 743, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 755, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .buyer-grid.decline .media .media-body h5 {
   color: #fbc100;
 }
 
-/* line 749, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 761, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .buyer-grid .media {
   background: #fff;
   padding: 10px;
   position: relative;
 }
 
-/* line 754, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 766, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .buyer-grid .media img {
   height: 40px;
   width: 40px;
@@ -945,12 +959,12 @@ main .single-vw .buyer-grid .media img {
   border: 1px #000 solid;
 }
 
-/* line 761, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 773, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .buyer-grid .media:hover .buyer-info-send {
   display: block;
 }
 
-/* line 765, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 777, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .buyer-grid .media .buyer-info-send {
   position: absolute;
   width: 100px;
@@ -962,14 +976,14 @@ main .single-vw .buyer-grid .media .buyer-info-send {
   display: none;
 }
 
-/* line 775, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 787, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .buyer-grid .media .buyer-info-send a {
   padding: 0px 10px;
   border-right: 1px #a0a0a0 solid;
   display: inline-block;
 }
 
-/* line 779, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 791, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .buyer-grid .media .buyer-info-send a span {
   margin: 0;
   line-height: 0;
@@ -977,17 +991,17 @@ main .single-vw .buyer-grid .media .buyer-info-send a span {
   display: block;
 }
 
-/* line 785, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 797, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 main .single-vw .buyer-grid .media .buyer-info-send a:last-child {
   border-right: none;
 }
 
-/* line 802, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 814, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 footer {
   height: 50px;
 }
 
-/* line 805, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 817, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .footer {
   position: absolute;
   bottom: 0;
@@ -997,12 +1011,12 @@ footer {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* line 816, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 828, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .create-new-proj {
   cursor: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMS4xLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDIyNC41MTIgMjI0LjUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjI0LjUxMiAyMjQuNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCI+CjxnPgoJPHBvbHlnb24gcG9pbnRzPSIyMjQuNTA3LDYuOTk3IDIxNy41MjEsMCAxMTIuMjU2LDEwNS4yNTggNi45OTgsMCAwLjAwNSw2Ljk5NyAxMDUuMjYzLDExMi4yNTQgICAgMC4wMDUsMjE3LjUxMiA2Ljk5OCwyMjQuNTEyIDExMi4yNTYsMTE5LjI0IDIxNy41MjEsMjI0LjUxMiAyMjQuNTA3LDIxNy41MTIgMTE5LjI0OSwxMTIuMjU0ICAiIGZpbGw9IiM1ZTMwYmUiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K), crosshair;
 }
 
-/* line 819, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 831, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .create-new-proj .modal-content {
   border-radius: 0;
   border: none;
@@ -1012,17 +1026,17 @@ footer {
   cursor: auto;
 }
 
-/* line 827, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 839, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .create-new-proj .modal-content .proj-form {
   padding: 50px 0px;
 }
 
-/* line 831, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 843, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .create-new-proj .modal-content .proj-form .prod-dtls .form-group {
   margin-bottom: 3rem;
 }
 
-/* line 833, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 845, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .create-new-proj .modal-content .proj-form .prod-dtls .form-group .form-control {
   height: 40px;
   color: var(--w-clr);
@@ -1048,36 +1062,36 @@ footer {
   color: var(--w-clr);
 }
 
-/* line 844, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 856, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .create-new-proj .modal-content .modal-title {
   color: var(--w-clr);
 }
 
-/* line 853, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 865, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .wallet-info {
   text-align: center;
   color: var(--w-clr);
   padding: 20px;
 }
 
-/* line 858, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 870, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .wallet-info h4 {
   margin: 0;
   margin-top: 15px;
   word-wrap: break-word;
 }
 
-/* line 866, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 878, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 a.full-link {
   text-decoration: none !important;
 }
 
-/* line 868, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 880, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 a.full-link .proj-thumb-wallet {
   color: var(--black-clr);
 }
 
-/* line 874, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 886, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .preload {
   background: #f1f1f1;
   width: 100%;
@@ -1087,7 +1101,7 @@ a.full-link .proj-thumb-wallet {
   top: 0;
 }
 
-/* line 881, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 893, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .preload div {
   width: 30px;
   height: 30px;
@@ -1097,37 +1111,37 @@ a.full-link .proj-thumb-wallet {
   border-radius: 50%;
 }
 
-/* line 888, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 900, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .preload div:nth-child(1) {
   background-color: #5e1ae9;
   animation: move 2s infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
 }
 
-/* line 892, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 904, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .preload div:nth-child(2) {
   background-color: #6329db;
   animation: move 2s 150ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
 }
 
-/* line 896, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 908, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .preload div:nth-child(3) {
   background-color: #7c48e7;
   animation: move 2s 300ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
 }
 
-/* line 900, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 912, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .preload div:nth-child(4) {
   background-color: #9d78ea;
   animation: move 2s 450ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
 }
 
-/* line 904, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 916, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .preload div:nth-child(5) {
   background-color: #c6b0f6;
   animation: move 2s 600ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
 }
 
-/* line 913, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 925, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .loading {
   width: 100px;
   height: 10px;
@@ -1136,7 +1150,7 @@ a.full-link .proj-thumb-wallet {
   overflow: hidden;
 }
 
-/* line 921, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 933, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .loading div {
   width: 10px;
   height: 10px;
@@ -1145,31 +1159,31 @@ a.full-link .proj-thumb-wallet {
   border-radius: 50%;
 }
 
-/* line 928, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 940, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .loading:nth-child(1) {
   background-color: #7c48e7;
   animation: move 1s infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
 }
 
-/* line 932, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 944, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .loading::nth-child(2) {
   background-color: #9d78ea;
   animation: move 1s 75ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
 }
 
-/* line 935, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 947, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .loading::nth-child(3) {
   background-color: #c6b0f6;
   animation: move 1s 150ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
 }
 
 /***********BEGIN SVG CSS***********/
-/* line 946, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 958, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .check-icon circle {
   fill: #25AE88;
 }
 
-/* line 949, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 961, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .check-icon polyline {
   fill: none;
   stroke: var(--w-clr);
@@ -1179,51 +1193,51 @@ a.full-link .proj-thumb-wallet {
   stroke-miterlimit: 10;
 }
 
-/* line 954, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 966, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .buyer-info-send .send-btn {
   fill: var(--w-clr);
 }
 
-/* line 956, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 968, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .buyer-info-send .send-btn:hover {
   fill: var(--d-ylw-clr);
 }
 
-/* line 960, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 972, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .buyer-info-send .delete {
   fill: var(--w-clr);
 }
 
-/* line 962, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 974, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .buyer-info-send .delete:hover {
   fill: var(--d-ylw-clr);
 }
 
-/* line 968, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 980, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .buyer-list-title .plus {
   fill: var(--blue-clr);
   cursor: pointer;
 }
 
-/* line 971, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 983, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .buyer-list-title .plus:hover {
   fill: var(--d-ylw-clr);
 }
 
-/* line 977, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 989, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .buyer-list-search .search-btn {
   fill: var(--w-clr);
 }
 
 /***********END SVG CSS***********/
-/* line 989, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 1001, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .videoslist img.vid-img {
   height: 380px;
   margin: 0 auto;
   opacity: 0;
 }
 
-/* line 995, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
+/* line 1007, D:/Mani-files/web/htdocs/Projects/Git-web/b2b/assets/sass/style.scss */
 .videoslist:hover img.vid-img {
   opacity: 1;
 }

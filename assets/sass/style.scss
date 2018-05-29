@@ -485,6 +485,7 @@ header{
 				margin: 0 auto;
 				color: var(--w-clr);
 				background:var(--blue-clr);
+				
 				&:hover{
 					background:var(--d-blue-clr);
 					cursor: pointer;
@@ -509,6 +510,17 @@ header{
 					background: var(--w-clr);
 					padding: 20px;
 					margin-bottom: 25px;
+					&.create-proj{
+	    width: 100%;
+    text-align: center;
+    background:var(--blue-clr);
+    			padding: 0px;
+
+    	&:hover{
+					background:var(--d-blue-clr);
+					cursor: pointer;
+				}
+}
 
 					&:hover{
 						-webkit-box-shadow: 0px 3px 5px 0px #e6e6e6;
